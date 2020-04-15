@@ -3,7 +3,6 @@ package exercise6;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.*;
 import java.util.*;
 public class GameHelper {
 		
@@ -30,7 +29,6 @@ public class GameHelper {
 	
 	public ArrayList<String> placeDotCom(int comSize) {
 		ArrayList<String> alphaCells = new ArrayList<String>();
-		String [] alphacoords = new String [comSize]; // holds ‘f6’ type coords
 		String temp = null; // temporary String for concat
 		int [] coords = new int[comSize]; // current candidate coords
 		int attempts = 0; // current attempts counter
