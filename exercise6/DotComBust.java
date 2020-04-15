@@ -1,8 +1,4 @@
 package exercise6;
-import exercise6.GameHelper;
-import jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
-
-import java.io.EOFException;
 import java.util.ArrayList;
 
 public class DotComBust {
@@ -48,7 +44,6 @@ public class DotComBust {
 				}
 			}
 		}catch(Exception e){
-			System.out.println(" ");
 		}
 		
 		System.out.println(result);
