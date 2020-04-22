@@ -1,4 +1,5 @@
 package chapter_11;
+import chapter_11.ScaryException;
 
 public class TestExceptions {
 	
